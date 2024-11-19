@@ -29,3 +29,4 @@ def get_primes():
 
 if __name__ == '__main__':
     app.run(debug=True)
+ /* Chinh sua tren server github */
