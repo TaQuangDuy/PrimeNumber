@@ -13,7 +13,7 @@ def is_prime(num):
 def generate_primes(n):
     return [x for x in range(2, n+1) if is_prime(x)]
 
-@app.route('/limit', methods=['GET'])
+@app.route('/prime', methods=['GET'])
 def get_primes():
     try:
         n = request.args.get('n', type=int)
