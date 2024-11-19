@@ -29,4 +29,5 @@ def get_primes():
 
 if __name__ == '__main__':
     app.run(debug=True)
-/* Chinh sua tren server may client */
+/* Chinh sua hop nhat giua server & client */
+
